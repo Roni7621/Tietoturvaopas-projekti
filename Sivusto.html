@@ -5,34 +5,72 @@
   Tietoturvaopas
   </title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+      * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      /* Style the header */
+      header {
+        background-color: #666;
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+      }
+      
+      /* Create two columns/boxes that floats next to each other */
+      nav {
+        float: left;
+        width: 30%;
+        height: 300px; /* only for demonstration, should be removed */
+        background: #ccc;
+        padding: 20px;
+      }
+      
+      /* Style the list inside the menu */
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      
+      article {
+        float: left;
+        padding: 20px;
+        width: 70%;
+        background-color: #f1f1f1;
+        height: 300px; /* only for demonstration, should be removed */
+      }
+      
+      /* Clear floats after the columns */
+      section:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* Style the footer */
+      footer {
+        background-color: #777;
+        padding: 10px;
+        text-align: center;
+        color: white;
+      }
+      
+      /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+      @media (max-width: 600px) {
+        nav, article {
+          width: 100%;
+          height: auto;
+        }
+      }
   </head>
-  <body style="margin: 0;
-               font-family: 'Open Sans', Arial, sans-serif;
-               font-size: 14px; line-height: 1.5;" >
-    <div id="root"
-         style="display: flex; flex-direction: row;
-                height: 100vh; background-color: cyan">
+  <body>
       
-      <div id="panel"
-           style="flex-basis: 100px; flex-grow: 0; flex-shrink: 0;
-                  background-color: gold;">
-      </div>
-      
-      <div id="surface"
-           style="flex-grow: 1; flex-shrink: 1;
-                  overflow-x: auto;
-                  display: flex; flex-direction: row;
-                  margin: 10px; background-color: cornflowerblue;">
-        
-        <div id="view"
-             style="min-width: 200px;
-                    margin: 10px; background-color: white;">
-          <p style="padding-left: 10px; padding-right: 10px;">
-            Hello. This view has a minimal width of 200px. It will occupy all available
-            horizontal space if it is given the opportunity to grow...
-          </p>
-        </div>
-      </div>        
-    </div>
   </body>
 </html>
