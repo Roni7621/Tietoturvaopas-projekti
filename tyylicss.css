@@ -1,6 +1,28 @@
-#etusivu {
-  background-color: #FF0000;
-  color: #000;
-  margin: 30px 40px;
-  padding: 20px;
+a {
+  background-color: skyblue;
+  box-shadow: 0 5px 0 darkred;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+} 
+.etusivu {
+  background-color: lightblue;
+  width: 1000px;
+  height: 100px;
+  margin: 0 auto;
+}
+body {
+  background-color: lightgreen;
+}
+nav {
+  background-color: lightcoral;
+  width: 1000px;
+  height: 100px;
+  margin: 0 auto;
+}
+section {
+  background-color: lightpink;
+  width: 1000px;
+  margin: 0 auto;
 }
