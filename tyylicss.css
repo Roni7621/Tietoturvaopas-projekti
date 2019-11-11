@@ -11,7 +11,7 @@
 }
 .etusivu {
   background-color: #121212;
-  width: 1020px;
+  width: 1220px;
   height: 100px;
   margin: 0 auto;
   text-align: center;
@@ -22,13 +22,13 @@ body {
 }
 nav {
   background-color: #121212;
-  width: 1020px;
+  width: 1220px;
   height: 100px;
   margin: 0 auto;
 }
 section {
   background-color: #121212;
-  width: 1000px;
+  width: 1200px;
   height: auto;
   margin: 0 auto;
   padding: 10px;
