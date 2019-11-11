@@ -19,19 +19,20 @@
   <section>
     <h2 id="Identiteetinhallinta">Identiteetin hallinta</h2><br><br>
 
-  Identiteetinhallinnalla tarkoitetaan prosessien ja teknisten ratkaisujen yhdistelmää, jota käyttämällä voidaan kontrolloida käyttäjien tai laitteiden pääsyä yritykselle kriittisiin resursseihin, kuten tietoon, asiakastietoihin, työntekijöiden tietoihin, taloustietoihin ja niin edelleen. Identiteetinhallinnan tarkoitus on varmistaa, että pelkästään tietojärjestelmän omistajan valtuuttamilla työntekijöillä on mahdollisuus päästä käsiksi siihen tietoon ja niihin järjestelmiin, joihin heidät on valtuutettu. Käyttäjien identiteetinhallinnan kanssa käsikädessä kulkee käyttöoikeuksien hallinta, joka koostuu käyttöoikeuksien luonnista, muutoksista, poistosta ja aktiivisesta seurannasta.<br>
+  <p>Identiteetinhallinnalla tarkoitetaan prosessien ja teknisten ratkaisujen yhdistelmää, jota käyttämällä voidaan kontrolloida käyttäjien tai laitteiden pääsyä yritykselle kriittisiin resursseihin, kuten tietoon, asiakastietoihin, työntekijöiden tietoihin, taloustietoihin ja niin edelleen. Identiteetinhallinnan tarkoitus on varmistaa, että pelkästään tietojärjestelmän omistajan valtuuttamilla työntekijöillä on mahdollisuus päästä käsiksi siihen tietoon ja niihin järjestelmiin, joihin heidät on valtuutettu. Käyttäjien identiteetinhallinnan kanssa käsikädessä kulkee käyttöoikeuksien hallinta, joka koostuu käyttöoikeuksien luonnista, muutoksista, poistosta ja aktiivisesta seurannasta.</p><br>
 
-  Käyttäjien identiteetinhallintaan on tarjolla lukuisia erilaisia teknisiä ratkaisuja, mutta hyvästä identiteetinhallintajärjestelmästä tulisi kuitenkin löytyä seuraavat tekniset ominaisuudet:<br>
-   -Järjestelmä mahdollistaa tarpeen mukaan kertakirjautumisen eli Single Sign onin, eri sovellusten välillä.<br>
-  -Järjestelmä tukee eri autentikointimenetelmiä (käyttäjän identiteetin varmistaminen), kuten SAML, OAuth, JWT.<br>
-  -Järjestelmä lukee autentikointi- ja autorisointitietoja eri hakemistoista, kuten relaatiotietokannoista ja tekstitiedostoista ja pystyy tarvittaessa hakemaan autorisointitietoja myös ulkoisista järjestelmistä.<br>
-  -Järjestelmä mahdollistaa erilaisten käyttörajoitusten toteuttamisen.<br>
-  -Järjestelmä sietää virheitä ja skaalautuu esimerkiksi kuormantasauksen avulla, sekä mahdollistaa kaikkien järjestelmäkomponenttien välisen salauksen.<br>
-  -Järjestelmä on integroitavissa henkilöstöhallinnon järjestelmään tai muuhun taustajärjestelmään.<br>
-  -Käyttäjille on tarjottava mahdollisuus hallita omia tietojaan itsepalveluperiaatteella.<br>
-  -Käyttäjien oikeudet ovat helposti raportoitavissa, myöskin pitää voida listata kaikki käyttäjät ja järjestelmät, joilla on oikeus johonkin tiettyyn resurssiin.<br>
-  -Järjestelmä pitää luotettavasti keskitettyä lokikantaa oikeuksien muutosta, käytöstä ja muista tietoturvallisuuden kannalta oleellisista asioista.<br><br>
-
+  <p>Käyttäjien identiteetinhallintaan on tarjolla lukuisia erilaisia teknisiä ratkaisuja, mutta hyvästä identiteetinhallintajärjestelmästä tulisi kuitenkin löytyä seuraavat tekniset ominaisuudet:</p>
+  <ul>
+    <li> Järjestelmä mahdollistaa tarpeen mukaan kertakirjautumisen eli Single Sign onin, eri sovellusten välillä.</li>
+    <li> Järjestelmä tukee eri autentikointimenetelmiä (käyttäjän identiteetin varmistaminen), kuten SAML, OAuth, JWT.</li>
+    <li> Järjestelmä lukee autentikointi- ja autorisointitietoja eri hakemistoista, kuten relaatiotietokannoista ja tekstitiedostoista ja pystyy tarvittaessa hakemaan autorisointitietoja myös ulkoisista järjestelmistä.</li>
+    <li> Järjestelmä mahdollistaa erilaisten käyttörajoitusten toteuttamisen.</li>
+    <li> Järjestelmä sietää virheitä ja skaalautuu esimerkiksi kuormantasauksen avulla, sekä mahdollistaa kaikkien järjestelmäkomponenttien välisen salauksen.</li>
+    <li> Järjestelmä on integroitavissa henkilöstöhallinnon järjestelmään tai muuhun taustajärjestelmään.</li>
+    <li> Käyttäjille on tarjottava mahdollisuus hallita omia tietojaan itsepalveluperiaatteella.</li>
+    <li> Käyttäjien oikeudet ovat helposti raportoitavissa, myöskin pitää voida listata kaikki käyttäjät ja järjestelmät, joilla on oikeus johonkin tiettyyn resurssiin.</li>
+    <li> Järjestelmä pitää luotettavasti keskitettyä lokikantaa oikeuksien muutosta, käytöstä ja muista tietoturvallisuuden kannalta oleellisista asioista.</li>
+</ul>
   Järjestelmän käytön oppimista voidaan helpottaa sopeuttamalla järjestelmän ulkoasu ja muu olemus yrityksen omaan ilmeeseen, esimerkiksi tekemällä siitä ulkoasullisesti samankaltainen kuin yrityksen julkiset kotisivut.<br>
 Hankittavassa identiteetinhallintajärjestelmässä tulee ottaa huomioon lainsäädännön asettamat säädökset yksityisyydensuojan sekä tietoturvan osalta. Laki edellyttää yritykseltä toimia toimintansa turvallisuuden varmistamiseksi, kun yrityksessä käsitellään tunnistamistietoja tai paikkatietoja. Suositeltavaa on laatia kirjalliset säännöt siitä, miten määritellyt tietoturvavaatimukset käytännössä toteutetaan yrityksessä. Nämä säännöt kannattaa laatia, vaikka edellä mainittuja tietoja ei käsiteltäisikään. Säännöissä tulee ilmetä tiedot siitä, kenellä on oikeus yrityksen tietojärjestelmiin ja erityisesti niiden eri osiin. Yksinkertaistaen siis, työntekijät kannattaa luokitella käyttöoikeuksien osalta niin, että käyttöoikeuksien laajuus vastaa työntekijän työnkuvauksen laatua tarpeellisuusperiaatteen pohjalta, eli osalla henkilöstöhallinnon työntekijöistä on oikeus palkkatiedostoihin, kun taas esimerkiksi myyntipuolen työntekijöillä ei ole.<br><br>
 
