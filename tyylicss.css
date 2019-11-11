@@ -10,7 +10,7 @@
   left: 225px;
 }
 .etusivu {
-  background-color: #121212;
+  background-color: #303536;
   width: 1220px;
   height: 100px;
   margin: 0 auto;
@@ -18,16 +18,16 @@
   color: #ffffff;
 }
 body {
-  background-color: #1f1b24;
+  background-color: #3a8cc2;
 }
 nav {
-  background-color: #121212;
+  background-color: #303536;
   width: 1220px;
   height: 100px;
   margin: 0 auto;
 }
 section {
-  background-color: #121212;
+  background-color: #303536;
   width: 1200px;
   height: auto;
   margin: 0 auto;
