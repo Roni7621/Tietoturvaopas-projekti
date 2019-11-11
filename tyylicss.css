@@ -1,6 +1,6 @@
 a {
-  background-color: #cf6679;
-  box-shadow: 0 5px 0 darkred;
+  background-color: #bb36fc;
+  box-shadow: 0 5px 0 #3700b3;
   color: white;
   padding: 1em 1.5em;
   text-decoration: none;
@@ -27,7 +27,7 @@ nav {
   margin: 0 auto; 
 }
 section {
-  background-color: #000000;
+  background-color: #121212;
   width: 1000px;
   height: 4000px;
   margin: 0 auto;
