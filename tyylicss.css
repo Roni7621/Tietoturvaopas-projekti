@@ -4,10 +4,9 @@
   color: white;
   padding: 1em 1.5em;
   text-decoration: none;
-  text-transform: uppercase;
   position: relative;
   top: 25px;
-  left: 225px;
+  left: 100px;
 }
 .etusivu {
   background-color: #303536;
@@ -40,7 +39,7 @@ section {
 }
 h1 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 30px;
 }
 .alalinkit {
   padding-left: 900px;
