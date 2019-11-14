@@ -1,7 +1,7 @@
 .a {
-  background-color: #bb36fc;
-  box-shadow: 0 5px 0 #3700b3;
-  color: white;
+  background-color: white;
+  box-shadow: 0 5px 0 #ffea49;
+  color: black;
   padding: 1em 1.5em;
   text-decoration: none;
   position: relative;
@@ -11,7 +11,7 @@
   font-size: 16px;
 }
 .etusivu {
-  background-color: #303536;
+  background-color:#3a8cc2;
   width: 1220px;
   height: 100px;
   margin: 0 auto;
@@ -19,16 +19,16 @@
   color: #ffffff;
 }
 body {
-  background-color: #3a8cc2;
+  background-color: white;
 }
 nav {
-  background-color: #303536;
+  background-color: #3a8cc2;
   width: 1220px;
   height: 100px;
   margin: 0 auto;
 }
 section {
-  background-color: #303536;
+  background-color: #3a8cc2;
   width: 1200px;
   height: auto;
   margin: 0 auto;
